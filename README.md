@@ -1,4 +1,20 @@
-# React Human-Bear-Gun Game
+# 🎮 React Human-Bear-Gun Game 🎮
+
+> Created in response to a member of the [ReactJS Expert Community](https://www.facebook.com/groups/215961735537277/permalink/673117619821684/). Feel free to open issues with bugs or feature requests.
+
+<p align="center">
+  <img src="screenshots/screenshot.png?raw=true" alt="" />
+</p>
+
+<p align="center">
+  <img src="screenshots/screenshot-mobile.png?raw=true" alt="" width="400" />
+</p>
+
+## Credits
+
+Icons made by [Freepik](https://www.flaticon.com/authors/freepik) from [FlatIcon](https://www.flaticon.com) and licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/).
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -1,4 +1,3 @@
-// in response to https://www.facebook.com/groups/215961735537277/permalink/673117619821684/
 import React, { useEffect, useState } from 'react';
 import random from 'utils.random';
 
