@@ -5,5 +5,7 @@ export const stringOrNull = (props, propName, componentName) => {
     return;
   }
 
-  return new Error(`${componentName} only accepts null or string`);
+  return new Error(
+    `Invalid prop \`${propName}\` of type \`${typeof propValue}\` supplied to \`${componentName}\`, expected \`string\` or \`null\`.`
+  );
 };
