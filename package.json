@@ -8,14 +8,24 @@
     "react-scripts": "3.1.1",
     "utils.random": "^1.0.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "cypress": "^3.4.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.4.0",
+    "eslint-plugin-cypress": "^2.6.1",
+    "start-server-and-test": "^1.10.0"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "scripts": {
+    "build": "react-scripts build",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:verify": "cypress verify",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "test:e2e": "BROWSER=none start-server-and-test start http://localhost:3000 cy:run",
+    "test:unit": "react-scripts test",
+    "test": "CI=true npm run test:unit && npm run test:e2e"
   },
   "browserslist": {
     "production": [
@@ -27,6 +37,20 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "env": {
+      "cypress/globals": true
+    },
+    "extends": "react-app",
+    "plugins": [
+      "eslint-plugin-cypress"
+    ]
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
     ]
   }
 }
