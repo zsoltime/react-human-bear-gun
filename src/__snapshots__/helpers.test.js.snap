@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`stringOrNull prop type returns new Error if prop is not a string or not null 1`] = `"Invalid prop \`truthyBool\` of type \`boolean\` supplied to \`TestComponent\`, expected \`string\` or \`null\`."`;
+
+exports[`stringOrNull prop type returns new Error if prop is not a string or not null 2`] = `"Invalid prop \`falsyBool\` of type \`boolean\` supplied to \`TestComponent\`, expected \`string\` or \`null\`."`;
+
+exports[`stringOrNull prop type returns new Error if prop is not a string or not null 3`] = `"Invalid prop \`fn\` of type \`function\` supplied to \`TestComponent\`, expected \`string\` or \`null\`."`;
+
+exports[`stringOrNull prop type returns new Error if prop is not a string or not null 4`] = `"Invalid prop \`num\` of type \`number\` supplied to \`TestComponent\`, expected \`string\` or \`null\`."`;
+
+exports[`stringOrNull prop type returns new Error if prop is not a string or not null 5`] = `"Invalid prop \`obj\` of type \`object\` supplied to \`TestComponent\`, expected \`string\` or \`null\`."`;
+
+exports[`stringOrNull prop type returns new Error if prop is not a string or not null 6`] = `"Invalid prop \`sym\` of type \`symbol\` supplied to \`TestComponent\`, expected \`string\` or \`null\`."`;

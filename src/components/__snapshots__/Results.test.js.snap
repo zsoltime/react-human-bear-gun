@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Results /> matches snapshot 1`] = `
+<div
+  aria-atomic="true"
+  aria-live="polite"
+  className="results"
+>
+  <p
+    className="result result--winner"
+  >
+    <Icon
+      aria-hidden="true"
+      className="icon icon--small"
+      focusable="false"
+      type="Bear"
+    />
+    <span
+      className="visuallyhidden"
+    >
+      You chose Bear
+    </span>
+  </p>
+  <p
+    className="result result--loser"
+  >
+    <Icon
+      aria-hidden="true"
+      className="icon icon--small"
+      focusable="false"
+      type="Human"
+    />
+    <span
+      className="visuallyhidden"
+    >
+      Computer chose Human
+    </span>
+  </p>
+  <p
+    aria-hidden="true"
+    className="result result--small"
+  >
+    You: (
+    5
+    )
+  </p>
+  <p
+    aria-hidden="true"
+    className="result"
+  >
+    vs
+  </p>
+  <p
+    aria-hidden="true"
+    className="result result--small"
+  >
+    Computer: (
+    3
+    )
+  </p>
+  <p
+    className="result"
+  >
+    Result text
+  </p>
+</div>
+`;

@@ -5,7 +5,7 @@ import RadioBox from './RadioBox';
 import Results from './Results';
 import Icon from './Icons';
 
-const getResult = (userChoice, computerChoice) => {
+export const getResult = (userChoice, computerChoice) => {
   if (userChoice === computerChoice) {
     return { result: "It's a tie. Try again!", winner: null };
   }

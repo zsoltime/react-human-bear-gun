@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RadioBox /> matches snapshot 1`] = `
+<Fragment>
+  <input
+    checked={false}
+    className="radio visuallyhidden"
+    id="Human"
+    onChange={[Function]}
+    type="radio"
+  />
+  <label
+    className="radio-box"
+    htmlFor="Human"
+  >
+    <Icon
+      aria-hidden="true"
+      className="icon"
+      focusable="false"
+      type="Human"
+    />
+    <span
+      className="visuallyhidden"
+    >
+      Human
+    </span>
+  </label>
+</Fragment>
+`;

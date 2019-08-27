@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Game /> matches snapshot 1`] = `
+<div
+  className="wrapper"
+>
+  <h1
+    className="title"
+  >
+    Human-Bear-Gun 
+    <strong>
+      Mini Game
+    </strong>
+  </h1>
+  <form
+    className="form"
+    onSubmit={[Function]}
+  >
+    <div
+      aria-labelledby="label"
+      className="game"
+      role="radiogroup"
+    >
+      <div
+        className="instructions"
+        id="label"
+      >
+        Select one of the 3 choices
+      </div>
+      <RadioBox
+        choice="Human"
+        key="Human"
+        onChange={[Function]}
+        userChoice={null}
+      />
+      <RadioBox
+        choice="Bear"
+        key="Bear"
+        onChange={[Function]}
+        userChoice={null}
+      />
+      <RadioBox
+        choice="Gun"
+        key="Gun"
+        onChange={[Function]}
+        userChoice={null}
+      />
+    </div>
+    <button
+      className="btn"
+      disabled={true}
+    >
+      Play
+    </button>
+  </form>
+  <Results
+    computerChoice={null}
+    points={
+      Object {
+        "computer": 0,
+        "user": 0,
+      }
+    }
+    result={null}
+    userChoice={null}
+    winner={null}
+  />
+  <button
+    className="btn btn--reset"
+    onClick={[Function]}
+    title="Reset game"
+    type="button"
+  >
+    <Icon
+      size="24px"
+      type="Reset"
+    />
+    <span
+      className="visuallyhidden"
+    >
+      Reset Game
+    </span>
+  </button>
+</div>
+`;
